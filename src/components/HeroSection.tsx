@@ -85,7 +85,7 @@ const HeroSection = () => {
           ref={headlineRef}
           className="text-6xl lg:text-8xl font-bold mb-6 leading-tight"
         >
-          <span className="block text-gradient">Ritik Jha</span>
+          <span className="block text-gradient">Hi, I'm Ritik Jha</span>
           <span className="block text-foreground">Web Developer</span>
         </h1>
         
