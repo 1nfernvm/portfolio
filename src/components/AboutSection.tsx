@@ -162,7 +162,7 @@ const AboutSection = () => {
           {/* Content */}
           <div ref={contentRef} className="space-y-8">
             <div>
-              <h3 className="text-3xl font-bold mb-4 glow-text">
+              <h3 className="text-3xl font-bold mb-4">
                 Full-Stack Developer & UI/UX Enthusiast
               </h3>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">

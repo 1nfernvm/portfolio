@@ -112,7 +112,7 @@ const Footer = () => {
                 <li key={link.label}>
                   <button
                     onClick={() => handleNavClick(link.href)}
-                    className="text-muted-foreground hover:text-primary transition-colors duration-300 hover:glow-text"
+                    className="text-muted-foreground hover:text-primary transition-colors duration-300"
                   >
                     {link.label}
                   </button>

@@ -141,7 +141,7 @@ const ContactSection = () => {
         <div className="grid lg:grid-cols-2 gap-16">
           {/* Contact Form */}
           <div className="glass-card rounded-2xl p-8">
-            <h3 className="text-2xl font-bold mb-6 glow-text">Send a Message</h3>
+            <h3 className="text-2xl font-bold mb-6">Send a Message</h3>
             
             <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
               <div>
@@ -183,7 +183,7 @@ const ContactSection = () => {
                 ) : (
                   <div className="flex items-center gap-2">
                     <PaperPlaneTilt size={20} />
-                    <span className="glow-text">Send Message</span>
+                    <span>Send Message</span>
                   </div>
                 )}
               </Button>
@@ -193,7 +193,7 @@ const ContactSection = () => {
           {/* Contact Info & Socials */}
           <div className="space-y-8">
             <div className="glass-card rounded-2xl p-8">
-              <h3 className="text-2xl font-bold mb-6 glow-text">Get in Touch</h3>
+              <h3 className="text-2xl font-bold mb-6">Get in Touch</h3>
               <div className="space-y-4">
                 <p className="text-muted-foreground">
                   📧 <span className="text-foreground">ritik.dev@email.com</span>
@@ -208,7 +208,7 @@ const ContactSection = () => {
             </div>
 
             <div className="glass-card rounded-2xl p-8">
-              <h3 className="text-2xl font-bold mb-6 glow-text">Follow Me</h3>
+              <h3 className="text-2xl font-bold mb-6">Follow Me</h3>
               <div ref={socialsRef} className="flex gap-4">
                 <div
                   className="glass p-4 rounded-xl cursor-pointer group hover:shadow-neon transition-all duration-300"

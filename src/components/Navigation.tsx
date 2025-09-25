@@ -87,7 +87,7 @@ const Navigation = () => {
     <>
       <nav 
         ref={navRef}
-        className="fixed top-0 left-0 right-0 z-40 px-8 lg:px-16 py-6"
+        className="sticky top-0 left-0 right-0 z-40 px-8 lg:px-16 py-6"
       >
         <div className="glass-card rounded-2xl px-6 py-4 backdrop-blur-xl">
           <div className="flex items-center justify-between">
@@ -105,7 +105,7 @@ const Navigation = () => {
                   className={`
                     px-4 py-2 rounded-lg transition-all duration-300 relative overflow-hidden
                     ${activeSection === item.label.toLowerCase() 
-                      ? 'text-primary glow-text' 
+                      ? 'text-primary' 
                       : 'text-muted-foreground hover:text-foreground'
                     }
                   `}
@@ -146,7 +146,7 @@ const Navigation = () => {
                 className={`
                   block w-full text-left px-4 py-3 rounded-lg transition-all duration-300
                   ${activeSection === item.label.toLowerCase()
-                    ? 'text-primary glow-text bg-primary/10'
+                    ? 'text-primary bg-primary/10'
                     : 'text-muted-foreground hover:text-foreground hover:bg-muted/20'
                   }
                 `}

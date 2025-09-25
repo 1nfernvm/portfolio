@@ -145,9 +145,9 @@ export default {
           border: '1px solid var(--glass-border)',
           boxShadow: 'var(--shadow-card)',
         },
-        '.glow-text': {
-          textShadow: '0 0 20px hsl(var(--primary) / 0.6)',
-        },
+        // '.glow-text': {
+        //   textShadow: '0 0 20px hsl(var(--primary) / 0.6)',
+        // },
         '.text-gradient': {
           background: 'var(--gradient-primary)',
           '-webkit-background-clip': 'text',

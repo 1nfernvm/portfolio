@@ -86,7 +86,7 @@ const HeroSection = () => {
           className="text-6xl lg:text-8xl font-bold mb-6 leading-tight"
         >
           <span className="block text-gradient">Hi, I'm Ritik</span>
-          <span className="block text-foreground glow-text">Web Developer</span>
+          <span className="block text-foreground">Web Developer</span>
         </h1>
         
         <p 
@@ -103,7 +103,7 @@ const HeroSection = () => {
             onMouseEnter={() => handleCtaHover(true)}
             onMouseLeave={() => handleCtaHover(false)}
           >
-            <span className="glow-text">Hire Me</span>
+            <span>Hire Me</span>
           </Button>
         </div>
       </div>

@@ -182,7 +182,7 @@ const ProjectsSection = () => {
 
               {/* Project Info */}
               <div className="space-y-4">
-                <h3 className="text-2xl font-bold glow-text group-hover:text-primary transition-colors">
+                <h3 className="text-2xl font-bold group-hover:text-primary transition-colors">
                   {project.title}
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
@@ -206,7 +206,7 @@ const ProjectsSection = () => {
                   variant="outline" 
                   className="w-full mt-4 glass-card border-primary/30 hover:border-primary/60 hover:shadow-neon transition-all duration-300"
                 >
-                  <span className="glow-text">View Project</span>
+                  <span>View Project</span>
                 </Button>
               </div>
             </div>
