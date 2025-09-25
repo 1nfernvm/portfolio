@@ -55,7 +55,7 @@ const LoadingScreen = ({ onComplete }: LoadingScreenProps) => {
     >
       <div className="text-center">
         <div ref={textRef} className="mb-8">
-          <h1 className="text-6xl font-bold text-gradient mb-4">INFERNUM</h1>
+          <h1 className="text-6xl font-bold text-gradient mb-4">RITIK</h1>
           <p className="text-muted-foreground text-lg">Loading Portfolio Experience</p>
         </div>
         
