@@ -23,14 +23,8 @@ const AboutSection = () => {
   const skillsRef = useRef<HTMLDivElement>(null);
 
   const skills = [
-    { icon: Code, name: 'HTML/CSS', color: 'text-primary' },
-    { icon: Lightning, name: 'JavaScript', color: 'text-accent' },
-    { icon: Palette, name: 'React', color: 'text-secondary' },
-    { icon: Rocket, name: 'GSAP', color: 'text-primary' },
-    { icon: Globe, name: 'Next.js', color: 'text-accent' },
-    { icon: Cpu, name: 'TypeScript', color: 'text-secondary' },
-    { icon: Database, name: 'Node.js', color: 'text-primary' },
-    { icon: GitBranch, name: 'Git', color: 'text-accent' }
+    { icon: Code, name: 'HTML', color: 'text-primary' },
+    { icon: Palette, name: 'CSS', color: 'text-secondary' }
   ];
 
   useEffect(() => {
@@ -163,18 +157,17 @@ const AboutSection = () => {
           <div ref={contentRef} className="space-y-8">
             <div>
               <h3 className="text-3xl font-bold mb-4">
-                Full-Stack Developer & UI/UX Enthusiast
+                Frontend Developer
               </h3>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                I'm passionate about creating immersive digital experiences that blend 
-                cutting-edge technology with intuitive design. With expertise in modern 
-                web technologies and animation libraries, I bring ideas to life through 
-                code and creativity.
+                I'm passionate about creating beautiful and responsive web interfaces using 
+                HTML and CSS. I focus on crafting pixel-perfect layouts, smooth animations, 
+                and user-friendly designs that work seamlessly across all devices.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                When I'm not coding, you'll find me exploring the latest in web3, 
-                experimenting with 3D graphics, or contributing to open-source projects 
-                that push the boundaries of what's possible on the web.
+                I'm currently expanding my skills and always eager to learn new technologies 
+                to create even more engaging web experiences. My goal is to build websites 
+                that not only look great but provide excellent user experiences.
               </p>
             </div>
 
@@ -185,7 +178,7 @@ const AboutSection = () => {
               </h4>
               <div 
                 ref={skillsRef}
-                className="grid grid-cols-4 gap-4"
+                className="grid grid-cols-2 gap-4"
               >
                 {skills.map((skill, index) => (
                   <div

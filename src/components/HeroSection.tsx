@@ -86,14 +86,14 @@ const HeroSection = () => {
           className="text-6xl lg:text-8xl font-bold mb-6 leading-tight"
         >
           <span className="block text-gradient">Hi, I'm Ritik Jha</span>
-          <span className="block text-foreground">Web Developer</span>
+          <span className="block text-foreground">Frontend Developer</span>
         </h1>
         
         <p 
           ref={subtitleRef}
           className="text-xl lg:text-2xl text-muted-foreground mb-8 max-w-2xl leading-relaxed"
         >
-          Crafting immersive digital experiences with cutting-edge technologies and pixel-perfect design.
+          Creating beautiful and responsive web interfaces with clean HTML and CSS code.
         </p>
         
         <div ref={ctaRef}>
