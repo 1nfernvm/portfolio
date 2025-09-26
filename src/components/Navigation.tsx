@@ -104,6 +104,7 @@ const Navigation = () => {
                   onClick={() => handleNavClick(item.href)}
                   className={`
                     px-4 py-2 rounded-lg transition-all duration-300 relative overflow-hidden
+                    hover:scale-105 hover:shadow-glow
                     ${activeSection === item.label.toLowerCase() 
                       ? 'text-primary' 
                       : 'text-muted-foreground hover:text-foreground'

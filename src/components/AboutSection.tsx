@@ -24,7 +24,13 @@ const AboutSection = () => {
 
   const skills = [
     { icon: Code, name: 'HTML', color: 'text-primary' },
-    { icon: Palette, name: 'CSS', color: 'text-secondary' }
+    { icon: Palette, name: 'CSS', color: 'text-secondary' },
+    { icon: Lightning, name: 'JavaScript', color: 'text-accent' },
+    { icon: Globe, name: 'DOM', color: 'text-primary' },
+    { icon: Rocket, name: 'GSAP', color: 'text-secondary' },
+    { icon: Cpu, name: 'Node.js', color: 'text-accent' },
+    { icon: GitBranch, name: 'Express.js', color: 'text-primary' },
+    { icon: Database, name: 'MongoDB', color: 'text-secondary' }
   ];
 
   useEffect(() => {
@@ -157,17 +163,17 @@ const AboutSection = () => {
           <div ref={contentRef} className="space-y-8">
             <div>
               <h3 className="text-3xl font-bold mb-4">
-                Frontend Developer
+                Full Stack Developer
               </h3>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                I'm passionate about creating beautiful and responsive web interfaces using 
-                HTML and CSS. I focus on crafting pixel-perfect layouts, smooth animations, 
-                and user-friendly designs that work seamlessly across all devices.
+                I'm passionate about creating full-stack web applications using modern technologies 
+                like JavaScript, Node.js, and MongoDB. I focus on crafting seamless user experiences 
+                from frontend animations to robust backend systems.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm currently expanding my skills and always eager to learn new technologies 
-                to create even more engaging web experiences. My goal is to build websites 
-                that not only look great but provide excellent user experiences.
+                I'm constantly expanding my skills and love learning new technologies to create 
+                innovative web solutions. My goal is to build applications that are both 
+                visually stunning and highly functional.
               </p>
             </div>
 
@@ -178,7 +184,7 @@ const AboutSection = () => {
               </h4>
               <div 
                 ref={skillsRef}
-                className="grid grid-cols-2 gap-4"
+                className="grid grid-cols-2 md:grid-cols-4 gap-4"
               >
                 {skills.map((skill, index) => (
                   <div

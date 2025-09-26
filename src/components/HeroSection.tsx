@@ -85,15 +85,15 @@ const HeroSection = () => {
           ref={headlineRef}
           className="text-6xl lg:text-8xl font-bold mb-6 leading-tight"
         >
-          <span className="block text-gradient">Hi, I'm Ritik Jha</span>
-          <span className="block text-foreground">Frontend Developer</span>
+          <span className="block text-gradient">Hi, I'm Ritik</span>
+          <span className="block text-foreground">Full Stack Developer</span>
         </h1>
         
         <p 
           ref={subtitleRef}
           className="text-xl lg:text-2xl text-muted-foreground mb-8 max-w-2xl leading-relaxed"
         >
-          Creating beautiful and responsive web interfaces with clean HTML and CSS code.
+          Creating full-stack web applications with modern technologies and beautiful user experiences.
         </p>
         
         <div ref={ctaRef}>
@@ -108,22 +108,6 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Spline 3D Model Placeholder */}
-      <div 
-        ref={splineRef}
-        className="flex-1 hidden lg:flex items-center justify-center h-96"
-      >
-        <div className="glass-card w-full h-full rounded-2xl flex items-center justify-center">
-          <div className="text-center">
-            <div className="w-32 h-32 bg-gradient-primary rounded-full mx-auto mb-4 animate-glow-pulse" />
-            <p className="text-muted-foreground">3D Model Loading...</p>
-            <p className="text-sm text-muted-foreground/60 mt-2">Spline integration placeholder</p>
-          </div>
-        </div>
-        {/* Uncomment when Spline is ready
-        <Spline scene="https://prod.spline.design/your-scene-url" />
-        */}
-      </div>
     </section>
   );
 };

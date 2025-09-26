@@ -94,7 +94,7 @@ const Footer = () => {
       </div>
 
       <div className="max-w-6xl mx-auto relative z-10">
-        <div className="grid md:grid-cols-3 gap-12 mb-12">
+        <div className="grid md:grid-cols-2 gap-12 mb-12">
           {/* Brand */}
           <div className="space-y-4">
             <h3 className="text-3xl font-bold text-gradient">RITIK</h3>
@@ -121,25 +121,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Social Links */}
-          <div className="space-y-4">
-            <h4 className="text-xl font-semibold text-foreground">Connect</h4>
-            <div className="flex gap-4">
-              {socialLinks.map((social) => (
-                <a
-                  key={social.label}
-                  href={social.href}
-                  className="glass p-3 rounded-xl hover:shadow-neon transition-all duration-300 group"
-                  aria-label={social.label}
-                >
-                  <social.icon 
-                    size={24} 
-                    className="text-muted-foreground group-hover:text-primary transition-colors" 
-                  />
-                </a>
-              ))}
-            </div>
-          </div>
         </div>
 
         {/* Bottom Section */}

@@ -57,7 +57,8 @@ const ProjectsSection = () => {
       description: 'Advanced cryptocurrency trading platform with real-time market data.',
       image: project5,
       tech: ['Vue.js', 'WebSockets', 'Charts.js'],
-      featured: true
+      featured: true,
+      fullWidth: true
     },
     {
       id: 6,
@@ -138,7 +139,7 @@ const ProjectsSection = () => {
     >
       <div className="max-w-7xl mx-auto">
         <h2 className="text-5xl font-bold text-center mb-8 text-gradient">
-          Featured Projects
+          Future Projects
         </h2>
         <p className="text-xl text-muted-foreground text-center mb-20 max-w-3xl mx-auto">
           A showcase of cutting-edge web applications built with modern technologies 
@@ -155,7 +156,8 @@ const ProjectsSection = () => {
               key={project.id}
               className={`
                 glass-card rounded-2xl p-6 group cursor-pointer
-                ${project.featured ? 'md:col-span-2 lg:col-span-2' : ''}
+                ${project.fullWidth ? 'md:col-span-2 lg:col-span-3' : ''}
+                ${project.featured && !project.fullWidth ? 'md:col-span-2 lg:col-span-2' : ''}
               `}
               onMouseEnter={() => handleCardHover(index, true)}
               onMouseLeave={() => handleCardHover(index, false)}

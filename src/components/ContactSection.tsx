@@ -196,41 +196,8 @@ const ContactSection = () => {
               <h3 className="text-2xl font-bold mb-6">Get in Touch</h3>
               <div className="space-y-4">
                 <p className="text-muted-foreground">
-                  📧 <span className="text-foreground">ritik.dev@email.com</span>
+                  📍 <span className="text-foreground">India</span>
                 </p>
-                <p className="text-muted-foreground">
-                  📱 <span className="text-foreground">+1 (555) 123-4567</span>
-                </p>
-                <p className="text-muted-foreground">
-                  📍 <span className="text-foreground">San Francisco, CA</span>
-                </p>
-              </div>
-            </div>
-
-            <div className="glass-card rounded-2xl p-8">
-              <h3 className="text-2xl font-bold mb-6">Follow Me</h3>
-              <div ref={socialsRef} className="flex gap-4">
-                <div
-                  className="glass p-4 rounded-xl cursor-pointer group hover:shadow-neon transition-all duration-300"
-                  onMouseEnter={() => handleSocialHover(0, true)}
-                  onMouseLeave={() => handleSocialHover(0, false)}
-                >
-                  <GithubLogo size={24} className="text-foreground group-hover:text-primary transition-colors" />
-                </div>
-                <div
-                  className="glass p-4 rounded-xl cursor-pointer group hover:shadow-neon transition-all duration-300"
-                  onMouseEnter={() => handleSocialHover(1, true)}
-                  onMouseLeave={() => handleSocialHover(1, false)}
-                >
-                  <LinkedinLogo size={24} className="text-foreground group-hover:text-primary transition-colors" />
-                </div>
-                <div
-                  className="glass p-4 rounded-xl cursor-pointer group hover:shadow-neon transition-all duration-300"
-                  onMouseEnter={() => handleSocialHover(2, true)}
-                  onMouseLeave={() => handleSocialHover(2, false)}
-                >
-                  <TwitterLogo size={24} className="text-foreground group-hover:text-primary transition-colors" />
-                </div>
               </div>
             </div>
           </div>
